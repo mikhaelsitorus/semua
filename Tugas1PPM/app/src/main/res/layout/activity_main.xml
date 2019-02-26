@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/latar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:fontFamily="casual"
+            android:text="BIODATA"
+            android:textSize="33dp"
+            android:textColor="#F8F8FF"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/kael" />
+        <TextView
+            android:layout_marginTop="7dp"
+            android:fontFamily="casual"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:textColor="#F8F8FF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama : Mikhael Sitorus"/>
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:fontFamily="casual"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:textColor="#F8F8FF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NPM : 124170008"/>
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:fontFamily="casual"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:textColor="#F8F8FF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail : mikhael.sitoruspane@gmail.com"/>
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:fontFamily="casual"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:textColor="#F8F8FF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prodi : Sistem Infromasi"/>
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:fontFamily="casual"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:textColor="#F8F8FF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jurusan : Teknik Informatika"/>
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:fontFamily="casual"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:textColor="#F8F8FF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fakultas : Teknik Industri" />
+
+        <TextView
+            android:layout_marginTop="7dp"
+            android:fontFamily="casual"
+            android:textSize="20dp"
+            android:gravity="left"
+            android:textColor="#F8F8FF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Universitas : UPN Veteran Yogyakarta"/>
+    </LinearLayout>
+
+
+</LinearLayout>
